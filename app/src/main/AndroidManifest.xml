@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ControlCafetin"
+        tools:targetApi="31">
+        <activity
+            android:name=".AntojitosConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalConsultarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AntojitosActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalActualizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AntojitosEliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoEliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosEliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalEliminarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AntojitosInsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoInsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosInsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalInsertarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AntojitosMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PedidoMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductosMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
